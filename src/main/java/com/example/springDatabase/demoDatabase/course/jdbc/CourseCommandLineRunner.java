@@ -12,6 +12,10 @@ public class CourseCommandLineRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        repo.insert();
+//        repo.insert(new Course("Java",1,"jetbrains"));
+//        repo.insert(new Course("java script",2,"java script"));
+//        repo.insert(new Course("React",3,"facebook"));
+//        repo.insert(new Course("csharp",4,"C#"));
+//        repo.insert(new Course("python",5,"python"));
     }
 }
